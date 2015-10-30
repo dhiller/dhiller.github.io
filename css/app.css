@@ -1,3 +1,34 @@
 body {
     background-color: oldlace;
 }
+.accordion .accordion-navigation > .content.active {
+    background-color: #ece4d5;
+}
+
+.accordion .accordion-navigation.active > a {
+    background-color: #cbc3b4;
+}
+
+.accordion .accordion-navigation.active > a:hover {
+    background-color: #d2cabb;
+}
+
+.accordion .accordion-navigation > a {
+    background-color: #d2cabb;
+}
+
+.accordion .accordion-navigation > a:hover {
+    background-color: #ddd5c6;
+}
+
+.tabs .tab-title.active a {
+    background-color: #cbc3b4;
+}
+
+.tabs .tab-title > a {
+    background-color: #d2cabb;
+}
+
+.tabs .tab-title > a:hover {
+    background-color: #ddd5c6;
+}
