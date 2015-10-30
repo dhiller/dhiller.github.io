@@ -71,7 +71,7 @@
                     </div>
                 </a>
 
-                <div id="wolterskluwer" class="content active">
+                <div id="wolterskluwer" class="content">
 
                     <ul class="tabs" data-tab>
                         <li class="tab-title active">
@@ -93,7 +93,8 @@
                     <div class="tabs-content">
                         <div class="content active" id="ppp">
                             <h5>Goals</h5>
-                            Automate production lines for preproduction of raw text in XML format and collection of associated
+                            Automate production lines for preproduction of raw text in XML format and collection of
+                            associated
                             files
 
                             <h5>Benefits</h5>
@@ -118,40 +119,47 @@
                             </ul>
 
                             <h5>Technologies</h5>
-                            Java, JAXB, XSLT, Xpath, Spring, Camel, Tapestry, JPA, Oracle, Maven, Git, Jira, Stash, Confluence
+                            Java, JAXB, XSLT, Xpath, Spring, Camel, Tapestry, JPA, Oracle, Maven, Git, Jira, Stash,
+                            Confluence
                         </div>
                         <div class="content" id="overall">
                             <ul>
                                 <li>Execution of code reviews</li>
-                                <li>Stash</li>
-                                <ul>
-                                    <li>Installation and maintenance of corporate instance</li>
-                                    <li>Creation and configuration of repositories</li>
-                                    <li>Establishment of continuous integration and deployment via Stash and Jenkins</li>
-                                </ul>
-                                <li>Internal talks</li>
-                                <ul>
-                                    <li>"Introduction to GIT"</li>
-                                    <li>"Code reviews with Stash"</li>
-                                    <li>"Boyscouts vs. Broken Windows" (general talk about clean coding and technical
-                                        debt)
-                                    </li>
-                                </ul>
+                                <li>Stash
+                                    <ul>
+                                        <li>Installation and maintenance of corporate instance</li>
+                                        <li>Creation and configuration of repositories</li>
+                                        <li>Establishment of continuous integration and deployment via Stash and Jenkins
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>Internal talks
+                                    <ul>
+                                        <li>"Introduction to GIT"</li>
+                                        <li>"Code reviews with Stash"</li>
+                                        <li>"Boyscouts vs. Broken Windows" (general talk about clean coding and
+                                            technical
+                                            debt)
+                                        </li>
+                                    </ul>
+                                </li>
                                 <li>Support of colleagues regarding questions and problems about topics GIT, Clean Code,
                                     architecture,
                                 </li>
                                 database migration during deployments
                                 <li>Creation of scripts to analyze application health on target systems</li>
-                                <li>Creation of scripts to control and update deployed applications</li>
-                                <li>Gerrit</li>
-                                <ul>
-                                    <li>Administering, creation of jobs, establishment of Jenkins triggers</li>
-                                </ul>
+                                <li>Creation of scripts to control and update deployed applications
+                                    <ul>
+                                        <li>Administering, creation of jobs, establishment of Jenkins triggers</li>
+                                    </ul>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </li>
+
+
             <li class="accordion-navigation">
                 <a href="#zalando">
                     <div class="row">
@@ -167,10 +175,125 @@
                     </div>
                 </a>
 
-                <div id="zalando" class="content">
-                    Test
+                <div id="zalando" class="content active">
+                    <ul class="tabs" data-tab>
+                        <li class="tab-title active">
+                            <a href="#procmon">
+                                <h6>
+                                    Process Monitoring
+                                    <small>Dez '13 - Jun '14</small>
+                                </h6>
+                            </a>
+                        </li>
+                        <li class="tab-title">
+                            <a href="#forensics">
+                                <h6>Payment Forensics
+                                    <small>Jul '12 - Jun '14</small>
+                                </h6>
+                            </a>
+                        </li>
+                        <li class="tab-title">
+                            <a href="#zcommon">
+                                <h6>Common Functions
+                                    <small>Jul '12 - Jun '14</small>
+                                </h6>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="tabs-content">
+                        <div class="content active" id="procmon">
+                            <h5>Goals</h5>
+                            Create a live monitoring frontend for internal processes
+
+                            <h5>Benefits</h5>
+                            Early warnings on unusual changes of key data for supervised systems lead to noticing
+                            imminent risks early
+
+                            <h5>Functions</h5>
+                            <ul>
+                                <li>Concept for architecture and data retrieval</li>
+                                <li>Concept for data structure of frontend display</li>
+                                <li>Implementing REST services</li>
+                                <li>Persistence
+                                    <ul>
+                                        <li>Creation of PostgreSQL functions to save and load transformed data</li>
+                                        <li>Creation of database tables for recording key data</li>
+                                    </ul>
+                                </li>
+                                <li>Transformation of backend data into data objects for frontend</li>
+                                <li>Caching integration</li>
+                            </ul>
+
+                            <h5>Technologies</h5>
+                            Java, Python, Bash, Javascript/AngularJS, Spring (MVC, REST), Quartz, Ehcache, PostgreSQL,
+                            Maven, Git, Jira, Stash
+                        </div>
+                        <div class="content" id="forensics">
+
+                            <h5>Goals</h5>
+                            <ul>
+                                <li>Implement a comparison tool for executed vs. expected payments and refunds</li>
+                                <li>Analysis, categorization, persistence and reporting of faults for further
+                                    processing
+                                </li>
+                                <li>Implement frontends and reports for distribution to responsible departments</li>
+                            </ul>
+
+                            <h5>Benefits</h5>
+                            <ul>
+                                <li>Responsible departments and management are provided with necessary tools</li>
+                                <li>Transaction errors are revealed and can be corrected</li>
+                                <li>Categorizing error categories makes them measurable</li>
+                            </ul>
+
+                            <h5>Functions</h5>
+                            <ul>
+                                <li>Implementation of web frontend, services and persistence</li>
+                                <li>Implementation of jobs for data processing in backend, i.e.
+                                    <ul>
+                                        <li>Aggregation of data from corporate database systems</li>
+                                        <li>Import of data from external systems</li>
+                                        <li>Categorizing deviation cases</li>
+                                    </ul>
+                                </li>
+                                <li>Implementation of persistence
+                                    <ul>
+                                        <li>Creation of table structures</li>
+                                        <li>Writing stored procedures</li>
+                                    </ul>
+                                </li>
+                                <li>Responsibility for operation and advancement of the system</li>
+                                <li>Maintenance: improvement of implementation and architecture</li>
+                            </ul>
+
+                            <h5>Technologies</h5>
+                            Java, Python, Bash, GWT/SmartGWT, Spring, Quartz, Ehcache, PostgreSQL, Maven, SVN, Git,
+                            Jira, Fisheye, Crucible, Stash
+
+                        </div>
+                        <div class="content" id="zcommon">
+                            <ul>
+                                <li>Code reviews</li>
+                                <li>Deployment to target systems</li>
+                                <li>Support of colleagues regarding several topics, i.e. testing and refactoring, java
+                                    development, GIT
+                                </li>
+                                <li>Tech talks: Clean Code, Introduction to IntelliJ, Refactoring</li>
+                                <li>Data analysis</li>
+                                <li>Deputy team lead
+                                    <ul>
+                                        <li>standups, iteration planning, retrospectives</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
             </li>
+
+
             <li class="accordion-navigation">
                 <a href="#dbap">
                     <div class="row">
