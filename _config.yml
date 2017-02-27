@@ -1,6 +1,7 @@
 timezone: Europe/Berlin
 
-url: http://www.dhiller.de
+url: https://www.dhiller.de
+enforce_ssl: www.dhiller.de
 
 collections:
   jobs:
