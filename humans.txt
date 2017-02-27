@@ -4,5 +4,5 @@
 
 /* SITE */
   Standards: HTML5, CSS3
-  Components: foundation
-  Software: Intellij, Git, Gimp
+  Components: foundation, font-awesome
+  Software: Intellij, Git, Gimp, Jekyll

@@ -1,0 +1,15 @@
+timezone: Europe/Berlin
+
+url: http://www.dhiller.de
+
+collections:
+  jobs:
+    output: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"

@@ -1,0 +1,260 @@
+---
+anchor: dbap
+title: Software-Developer Java
+location: dbap GmbH, M&uuml;nster
+from: Sep 2002
+till: Jun 2012
+---
+
+<ul class="tabs" data-tab>
+    <li class="tab-title active">
+        <a href="#webservice_SmartGate">
+            <h6>
+                webservice_SmartGate
+                <small>Dez 2008 - Jun 2012</small>
+            </h6>
+        </a>
+    </li>
+    <li class="tab-title">
+        <a href="#selenium">
+            <h6>Selenium Webtests
+                <small>2011</small>
+            </h6>
+        </a>
+    </li>
+    <li class="tab-title">
+        <a href="#admin_SmartGate">
+            <h6>admin_SmartGate
+                <small>2002 - 2009, Jun 2012</small>
+            </h6>
+        </a>
+    </li>
+    <li class="tab-title">
+        <a href="#creditreform">
+            <h6>Creditreform
+                <small>2008</small>
+            </h6>
+        </a>
+    </li>
+    <li class="tab-title">
+        <a href="#article_data_optimization">
+            <h6>Optimization of article data
+                <small>2006</small>
+            </h6>
+        </a>
+    </li>
+    <li class="tab-title">
+        <a href="#custom_order_management">
+            <h6>Custom Order-Management
+                <small>2005</small>
+            </h6>
+        </a>
+    </li>
+    <li class="tab-title">
+        <a href="#online_shop_relaunch">
+            <h6>Online-Shop relaunch
+                <small>2004</small>
+            </h6>
+        </a>
+    </li>
+</ul>
+
+<div class="tabs-content">
+    <div class="content active" id="webservice_SmartGate">
+
+        <h4>dStore webservice_SmartGate</h4>
+        <h4 class="subheader">RESTful Webservice for the dStore-Plattform</h4>
+
+        <h5>Goals</h5>
+        Enable access to dStore data returned in XML via RESTful HTTP
+
+        <h5>Benefits</h5>
+        <ul>
+            <li>Reducing database load</li>
+            <li>Simplification of data retrieval for frontend web development</li>
+            <li>Standardization of data access</li>
+            <li>Removal of a required legacy data access library</li>
+            <li>Enabling full text search on product data</li>
+        </ul>
+
+        <h5>Functions</h5>
+        <ul>
+            <li>Technical lead</li>
+            <li>Development of prototype</li>
+            <li>Converting prototype to operational backend</li>
+            <li>Introducing an intermediate layer for data retrieval cached with Spymemcached to
+                reduce database load
+            </li>
+            <li>Integration of Saxon as replacement for standard JAXP implementation to support
+                newer XSLT version
+            </li>
+            <li>Integration of Lucene to
+                <ul>
+                    ** Integrate full text search and
+                    ** have secondary data store to further reduce database load
+                </ul>
+            </li>
+            <li>Conversion from ant to maven multi module build</li>
+            <li>Integration of Artifactory as Maven repository for hosting of corporate artifacts
+            </li>
+            <li>Introducing Jenkins as CI server to standardize build process</li>
+            <li>Introducing Mockito to reduce test dependencies</li>
+            <li>Integration of online help system for use by frontend developers with Velocity and
+                XML
+            </li>
+            <li>Accompanying bringing the system into production</li>
+            <li>Third level support</li>
+        </ul>
+
+        <h5>Technologies</h5>
+        Java, Restlet, JAXP, Saxon, Memcached, Lucene, Velocity, Sybase ASE, Ant/Maven, SVN/Git
+
+    </div>
+
+    <div class="content" id="selenium">
+        <h4>Customer project Selenium Webtests</h4>
+
+        <h5>Goals</h5>
+        Create a project for testing crucial website functionality
+
+        <h5>Benefits</h5>
+        <ul>
+            <li>Securing crucial order process functionality</li>
+            <li>Automation of manual test execution</li>
+            <li>Automation of browser specific testing</li>
+        </ul>
+
+        <h5>Functions</h5>
+        <ul>
+            <li>Initial project setup with Ant and TestNG</li>
+            <li>Creation of parameterized basic test structure to build upon</li>
+            <li>Conversion to maven</li>
+        </ul>
+
+        <h5>Technologies</h5>
+        Java, Selenium, TestNG, Ant/Maven, Jenkins
+
+    </div>
+
+    <div class="content" id="admin_SmartGate">
+        <h4>dStore admin_SmartGate</h4>
+        <h4 class="subheader">Administration software for dStore platform</h4>
+
+        <h5>Goals</h5>
+        Replace PHP based administration backend
+
+        <h5>Benefits</h5>
+        <ul>
+            <li>Standardization of administration interface</li>
+            <li>Conceptional simplification for end users</li>
+            <li>Simultaneous display of all data required for several use cases</li>
+            <li>Simplification of end user workflow by providing standardized desktops</li>
+            <li>Simplification of customer support</li>
+        </ul>
+
+        <h5>Functions</h5>
+        <ul>
+            <li>Technical lead</li>
+            <li>Evaluation of RMI as architecture base</li>
+            <li>Prototyping</li>
+            <li>System development</li>
+            <li>Introduction of Scrum to stabilize development process</li>
+            <li>Introduction of quality metrics and automated tests for quality assurance</li>
+            <li>Implementing an own CI server based on Ant and shell scripts</li>
+            <li>Implementing the concept of desktops</li>
+            <li>Creation of installers</li>
+            <li>Implementing automatic update process, later replaced by Java Web Start</li>
+            <li>Integration of a plugin concept to integrate customer specific modules</li>
+            <li>Migrating project from Ant to Maven</li>
+            <li>first and second level support</li>
+        </ul>
+
+        <h5>Technologies</h5>
+        Java, JDBC, RMI, Infonode Docking Windows, Swing, SwingX, JasperReports, Java Webstart, CVS,
+        SVN, Git, Ant, Maven
+
+    </div>
+
+    <div class="content" id="creditreform">
+        <h4>Customer project &quot;Integration Creditreform/Boniversum CEG&quot;</h4>
+
+        <h5>Goals</h5>
+        Integrate Creditreform/Boniversum CEG into order process
+
+        <h5>Benefits</h5>
+        automated determination of granted payment methods during order taking
+
+        <h5>Functions</h5>
+        <ul>
+            <li>Implementation with PHP</li>
+            <li>Integration into order taking</li>
+        </ul>
+
+        <h5>Technologies</h5>
+        PHP, CURL
+    </div>
+
+    <div class="content" id="article_data_optimization">
+        <h4>Customer project &quot;Optimization of article data retrieval for online
+            shops&quot;</h4>
+
+        <h5>Goals</h5>
+        Optimize retrieval of required article data for frontend display
+
+        <h5>Benefits</h5>
+        <ul>
+            <li>Simplification of article data retrieval by web frontend programmers</li>
+            <li>Load reduction on database by using Memcached als intermediate layer</li>
+        </ul>
+
+        <h5>Technologies</h5>
+        PHP, Memcached
+    </div>
+
+    <div class="content" id="custom_order_management">
+        <h4>Customer project &quot;Custom Order-Management&quot;</h4>
+
+        <h5>Goals</h5>
+        Develop an order management system from customer requirements based on dStore platform and
+        admin_SmartGate (see above)
+
+        <h5>Benefits</h5>
+        <ul>
+            <li>Mapping of business processes</li>
+            <li>Optimization of order taking</li>
+        </ul>
+
+        <h5>Functions</h5>
+        <ul>
+            <li>Initial development and project setup</li>
+            <li>Integration of JasperReports for order printing</li>
+            <li>Enable creation of custom reports (customer can select printed columns via GUI)</li>
+            <li>UI development</li>
+        </ul>
+
+        <h5>Technologies</h5>
+        Java, JDBC, JasperReports, Swing
+    </div>
+
+    <div class="content" id="online_shop_relaunch">
+        <h4>Customer project &quot;Online-Shop relaunch&quot;</h4>
+
+        <h5>Goals</h5>
+        Relaunch customer web shop
+
+        <h5>Benefits</h5>
+        <ul>
+            <li>New design</li>
+            <li>Integration of new functionality</li>
+        </ul>
+
+        <h5>Functions</h5>
+        <ul>
+            <li>Implementation of community module based on PHP</li>
+            <li>New search functionality</li>
+        </ul>
+
+        <h5>Technologies</h5>
+        PHP, HTML, CSS, Sybase ASE
+    </div>
+</div>
