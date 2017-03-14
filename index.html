@@ -26,33 +26,3 @@ layout: default
     </div>
 
 </div>
-
-<div class="row" style="padding-top: 10px;">
-    <div class="columns small-12">
-        <ul class="accordion" data-accordion>
-
-            {% assign jobs = (site.jobs | sort: 'date') | reverse %}
-            {% for job in jobs %}
-
-            <li class="accordion-navigation">
-                <a href="#{{ job.anchor }}">
-                    <div class="row">
-                        <div class="columns small-3">
-                            {{ job.from }} - {{ job.till }}
-                        </div>
-                        <div class="columns small-5">
-                            {{ job.title }}
-                        </div>
-                        <div class="columns small-4">
-                            {{ job.location }}
-                        </div>
-                    </div>
-                </a>
-                <div id="{{ job.anchor }}" class="content">
-                    {{ job.content }}
-                </div>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-</div>
