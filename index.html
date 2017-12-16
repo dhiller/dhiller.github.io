@@ -37,14 +37,11 @@ layout: default
             <li class="accordion-navigation">
                 <a href="#{{ job.anchor }}">
                     <div class="row">
-                        <div class="columns small-3">
+                        <div class="columns small-12 medium-4 large-4">
                             {{ job.from }} - {{ job.till }}
                         </div>
-                        <div class="columns small-5">
-                            {{ job.title }}
-                        </div>
-                        <div class="columns small-4">
-                            {{ job.location }}
+                        <div class="columns small-12 medium-8 large-8">
+                            {{ job.title }}, {{ job.location }}
                         </div>
                     </div>
                 </a>
