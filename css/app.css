@@ -6,19 +6,19 @@ body {
 }
 
 .accordion .accordion-navigation.active > a {
-    background-color: #cbc3b4;
+    background-color: #e2dacb;
 }
 
 .accordion .accordion-navigation.active > a:hover {
-    background-color: #d2cabb;
+    background-color: #e6decf;
 }
 
 .accordion .accordion-navigation > a {
-    background-color: #d2cabb;
+    background-color: #e5ddce;
 }
 
 .accordion .accordion-navigation > a:hover {
-    background-color: #ddd5c6;
+    background-color: #ece4d5;
 }
 
 .tabs .tab-title.active a {
