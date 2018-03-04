@@ -27,7 +27,8 @@ layout: default
 </div>
 
 <div class="row" style="padding-top: 10px;">
-    <div class="columns small-12">
+    <div class="columns small-8">
+        <h3>History</h3>
         <ul class="accordion" data-accordion>
 
             {% assign jobs = (site.jobs | sort: 'date') | reverse %}
@@ -50,5 +51,19 @@ layout: default
             </li>
             {% endfor %}
         </ul>
+    </div>
+    <div class="columns small-4">
+        <h3>Recent posts</h3>
+        <hr/>
+        {% for post in site.posts limit:3 %}
+        <div class="row">
+            <div class="columns small-12 medium-12 large-12">
+                <h4><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h4>
+                {{ post.excerpt }} <a href="{{site.baseurl}}{{ post.url }}"><i class="fa fa-arrow-right"
+                    aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <hr/>
+        {% endfor %}
     </div>
 </div>

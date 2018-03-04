@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="row">
+    <div class="columns small-12 medium-12 large-12">
+        <h1>Blog posts</h1>
+        <hr/>
+    </div>
+    <div class="columns small-12 medium-12 large-12">
+        {% assign sorted = (site.posts | sort: 'date') | reverse %}
+        {% for post in sorted %}
+        <div class="row">
+            <div class="columns small-12 medium-12 large-12">
+                <h4><a href="{{site.baseurl}}{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }}: {{ post.title }}</a></h4>
+                {{ post.excerpt }} <a href="{{site.baseurl}}{{ post.url }}"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="columns small-12 medium-12 large-12">
+                <hr/>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,20 @@
+---
+---
+{% include head.html %}
+{% include navigation.html %}
+
+{% include page_navigation.html %}
+
+<div class="row" style="padding-top: 10px;">
+    <div class="columns small-12">
+        <h2>{{ page.title }}</h2>
+
+        {{ page.content }}
+    </div>
+</div>
+
+<br/>
+
+{% include page_navigation.html %}
+
+{% include footer.html %}

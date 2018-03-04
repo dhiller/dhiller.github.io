@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="columns small-6 medium-6 large-6 text-left">
+        {% if page.previous != nil %}
+        <a title="{{ page.previous.title }}" href="{{ site.url }}/{{ page.previous.url }}">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+        </a>
+        {% else %}
+        &nbsp;
+        {% endif %}
+    </div>
+    <div class="columns small-6 medium-6 large-6 text-right">
+        {% if page.next != nil %}
+        <a title="{{ page.next.title }}" href="{{ site.url }}/{{ page.next.url }}">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </a>
+        {% else %}
+        &nbsp;
+        {% endif %}
+    </div>
+</div>
