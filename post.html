@@ -3,19 +3,23 @@ layout: default
 ---
 
 <div class="row">
-    <div class="columns small-12 medium-12 large-12">
+    <div class="columns">
         <h1>Blog posts</h1>
         <hr/>
     </div>
-    <div class="columns small-12 medium-12 large-12">
+</div>
+<div class="row">
+    <div class="columns">
         {% assign sorted = (site.posts | sort: 'date') | reverse %}
         {% for post in sorted %}
         <div class="row">
-            <div class="columns small-12 medium-12 large-12">
+            <div class="columns">
                 <h4><a href="{{site.baseurl}}{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }}: {{ post.title }}</a></h4>
                 {{ post.excerpt }} <a href="{{site.baseurl}}{{ post.url }}">...more...</i></a>
             </div>
-            <div class="columns small-12 medium-12 large-12">
+        </div>
+        <div class="row">
+            <div class="columns">
                 <hr/>
             </div>
         </div>

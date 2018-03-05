@@ -8,6 +8,8 @@ collections:
     output: false
   articles:
     output: false
+  navigation:
+    output: false
 
 defaults:
   -
