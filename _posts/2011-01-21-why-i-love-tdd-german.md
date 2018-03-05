@@ -25,9 +25,9 @@ Wie gesagt, tat ich, was ich früher in solchen Fällen getan hatte. Aufgrund me
 
 Nach zwei erfolglosen Versuchen und circa eineinhalb Stunden unnütz investierter Zeit gab ich kurz auf. Der Vorteil, wenn es spät ist, ist: man ist allein im Büro und kann in Ruhe nachdenken. Das tat ich, und beschloss einen neuen Schlachtplan:
 
-Compile-Fehler außerhalb der zu ändernden Klasse und der Testklasse ignorieren
-Nur kleine Iterationen
-Sobald die Klasse und die Testklasse selbst wieder kompilierbar sind, sofort alle diese Tests ausführen, mit anderen Worten : Red – Green – Refactor
+* Compile-Fehler außerhalb der zu ändernden Klasse und der Testklasse ignorieren
+* Nur kleine Iterationen
+* Sobald die Klasse und die Testklasse selbst wieder kompilierbar sind, sofort alle diese Tests ausführen, mit anderen Worten : Red – Green – Refactor
 
 Nach einer halben Stunde hatte ich die Änderungen an dieser einen Klasse und ihrer Testklasse durchgeführt. Danach machte ich mich daran, zunächst die Compile-Fehler in den benutzenden Klassen zu beheben, und als alles wieder kompilierbar war, checkte ich ein.
 
