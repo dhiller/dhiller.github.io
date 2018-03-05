@@ -6,6 +6,8 @@ enforce_ssl: www.dhiller.de
 collections:
   jobs:
     output: false
+  articles:
+    output: false
 
 defaults:
   -

@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="row">
+    <div class="columns small-12 medium-12 large-12">
+        <h1>Articles and presentations</h1>
+        <hr/>
+    </div>
+    <div class="columns small-12 medium-12 large-12">
+        {% assign sorted = (site.articles | sort: 'date') | reverse %}
+        {% for article in sorted %}
+        <div class="row">
+            <div class="columns small-2 medium-2 large-2">
+                {{ article.date | date: "%Y-%m-%d" }}
+            </div>
+            <div class="columns small-7 medium-7 large-7">
+                <span data-tooltip aria-haspopup="true" class="has-tip" title="{{ article.content }}">
+                    <b>{{ article.title }}</b>
+                </span>
+            </div>
+            <div class="columns small-3 medium-3 large-3">
+                {{ article.location }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="columns small-2 medium-2 large-2">&nbsp;</div>
+            <div class="columns small-1 medium-1 large-1">
+                {% if article.view != nil %}
+                <a title="View" href="{{ article.view }}"><i class="fa fa-file-movie-o"></i></a>
+                {% endif %}
+                {% if article.download != nil %}
+                <a title="Download" href="{{ article.download }}"><i class="fa fa-cloud-download"></i></a>
+                {% endif %}
+            </div>
+            <div class="columns small-9 medium-9 large-9">&nbsp;</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
