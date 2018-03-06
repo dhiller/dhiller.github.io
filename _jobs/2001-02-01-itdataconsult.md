@@ -1,13 +1,13 @@
 ---
-anchor: itdataconsult
+anchor: itdataConsult
 title: Software-Developer Microsoft Visual Basic 6
 location: ITData Consult GmbH, M&uuml;nster
 from: Feb 2001
 till: Aug 2002
 ---
 
-#### Customer project "Software for executive consultants"
-##### Software for administering customer documents of an executive consultant
+#### Customer project "Software for executive Consultants"
+##### Software for administering customer documents of an executive Consultant
 
 ##### Goals
 * Replace Microsoft Excel based documents by a document management with Excel

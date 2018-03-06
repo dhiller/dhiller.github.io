@@ -6,7 +6,7 @@ from: Jul 2014
 till: Nov 2016
 ---
 
-#### Product-Preprocessor (Jul 2014-Nov 2016)
+#### Product-Preprocessor
 
 ##### Goals
 Automate production lines for preproduction of raw text in XML format and collection of
@@ -36,7 +36,7 @@ Stash, Confluence
 ***
 
 
-#### Overall functions (Jul 2014-Nov 2016)
+#### Overall responsibilities
 * Execution of code reviews
 * Stash
   * Installation and maintenance of corporate instance
