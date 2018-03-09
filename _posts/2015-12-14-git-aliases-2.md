@@ -7,15 +7,21 @@ After wrestling with the global `.gitconfig` file for installing aliases like a 
 
 Create an alias for a compressed log with decorations and graph:
 
-    git config --global alias.l 'log --format=oneline --graph --decorate'
+```bash
+git config --global alias.l 'log --format=oneline --graph --decorate'
+```
 
 So instead of typing
 
-    git log --format=oneline --graph --decorate
+```bash
+git log --format=oneline --graph --decorate
+```
 
 then you can just enter
 
-    git l
+```bash
+git l
+```
 
 and you will get a onelined history output complete with ascii visual graph and annotations for where every branch pointer is ATM :)
 

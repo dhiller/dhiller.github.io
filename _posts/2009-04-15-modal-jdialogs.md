@@ -7,8 +7,10 @@ Recently our customers experienced problems running our software after updating 
 
 Since google investigation did not bring any results except this we were convinced it should be our fault. After several hours of checking swing calls outside of the evnt dispatch thread, checking for undisposed dialogs and hunting down modal dialogs we found the following two statements.
 
-    dialog.setVisible(true);
-    dialog.setModal(true);
+```java
+dialog.setVisible(true);
+dialog.setModal(true);
+```
 
 Do you see the problem? Neither did we at first. And since the code had worked before we did not think the order of these two statements would be the problem.
 

@@ -7,34 +7,37 @@ I've often had the problem that when checking for a working retry mechanism (btw
 
 Easy peasy, I thought. Just create an Answer and hold state within the answer i.e. a boolean that gets set to true after it has been called:
 
-    @Test
-    public void queryIsRetried() {
-        final Answer objectAnswer = new Answer() {
+```java
+@Test
+public void queryIsRetried() {
+    final Answer objectAnswer = new Answer() {
 
-            boolean called;
+        boolean called;
 
-            @Override
-            public Object answer(InvocationOnMock invocation) throws Throwable {
-                if(called) {
-                    return null;
-                }
-
-                called = true;
-                throw new RuntimeException();
+        @Override
+        public Object answer(InvocationOnMock invocation) throws Throwable {
+            if(called) {
+                return null;
             }
-        };
-        when(lexdbJdbcTemplate.query(anyString(), any(RowMapper.class)))
-                .then(objectAnswer);
-        underTest.query("SELECT 1;");
-    }
+
+            called = true;
+            throw new RuntimeException();
+        }
+    };
+    when(lexdbJdbcTemplate.query(anyString(), any(RowMapper.class)))
+            .then(objectAnswer);
+    underTest.query("SELECT 1;");
+}
+```
 
 And of course there is a much easier way, stupid me:
 
-
-    @Test
-    public void queryIsRetried() {
-        when(lexdbJdbcTemplate.query(anyString(), any(RowMapper.class)))
-                .thenThrow(new RuntimeException())
-                .thenReturn(null);
-        underTest.query("SELECT 1;");
-    }
+```java
+@Test
+public void queryIsRetried() {
+    when(lexdbJdbcTemplate.query(anyString(), any(RowMapper.class)))
+            .thenThrow(new RuntimeException())
+            .thenReturn(null);
+    underTest.query("SELECT 1;");
+}
+```

@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="columns small-4 medium-4 large-4 text-left">
+    <div class="columns small-5 medium-5 large-5 text-left">
         {% if page.previous != nil %}
         <a title="{{ page.previous.title }}" href="{{ site.url }}/{{ page.previous.url }}">
             <i class="fa fa-arrow-left" aria-hidden="true"></i>
@@ -9,13 +9,13 @@
         &nbsp;
         {% endif %}
     </div>
-    <div class="columns small-4 medium-4 large-4 text-left">
+    <div class="columns small-2 medium-2 large-2 text-center">
         <a title="All blog posts" href="/post.html">
             <i class="fa fa-arrow-up" aria-hidden="true"></i>
             All posts
         </a>
     </div>
-    <div class="columns small-4 medium-4 large-4 text-right">
+    <div class="columns small-5 medium-5 large-5 text-right">
         {% if page.next != nil %}
         <a title="{{ page.next.title }}" href="{{ site.url }}/{{ page.next.url }}">
             {{ page.next.title }}
