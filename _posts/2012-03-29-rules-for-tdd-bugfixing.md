@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Rules for test driven bug fixing
+summary: Rules for test driven bug fixing
+tags: [tdd,bugfix]
 ---
 
 Just a quick note to myself for how to do bug fixing:

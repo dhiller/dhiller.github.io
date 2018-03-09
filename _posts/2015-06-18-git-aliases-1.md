@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Useful git aliases when working with Maven and Jira
+summary: Useful git aliases when working with Maven and Jira
+tags: [git,alias]
 ---
 
 Put these into your `.gitconfig` below the `alias` section:

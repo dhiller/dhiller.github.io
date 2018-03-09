@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Run multiple Intellij version installations on linux
+summary: Run multiple Intellij version installations on linux
+tags: [linux,intellij,ide,configuration]
 ---
 
 I love Intellij very much. I like the jetbrains EAP program for trying out new features of the IDE. After being screwed a couple of times replacing a working installation by a faulty one, I elaborated a way of keeping several versions of Intellij in parallel.

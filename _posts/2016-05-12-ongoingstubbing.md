@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Don't forget that thenThrow returns an OngoingStubbing instance *sigh*
+summary: Don't forget that thenThrow returns an OngoingStubbing instance *sigh*
+tags: [java,mock,spring,retry]
 ---
 
 I've often had the problem that when checking for a working retry mechanism (btw. [spring-retry](https://github.com/spring-projects/spring-retry) works great) I wanted to first throw an exception and then return a value or whatever else is necessary.

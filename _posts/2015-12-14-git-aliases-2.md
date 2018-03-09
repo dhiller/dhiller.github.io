@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Git aliases, the easy way
+summary: Git aliases, the easy way
+tags: [git,alias]
 ---
 
 After wrestling with the global `.gitconfig` file for installing aliases like a shortcut for status using `vi`, I thought there must be an easier way, and there is (as always when using git):

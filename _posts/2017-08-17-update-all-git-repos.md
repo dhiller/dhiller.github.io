@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Update all git repos via cmd line in a subdir
+summary: Update all git repos via cmd line in a subdir
+tags: [git,osx]
 ---
 
 This one is just for me so I don't forget this "one-liner". Updates all git repositories in direct subdirectories. Works on OS X :)

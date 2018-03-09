@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Warum ich TDD liebe
+summary: Warum ich TDD liebe.
+tags: [tdd,xp,german]
 ---
 
 Ich liebe TDD. Nicht deswegen, weil es so ein toller Hype ist, oder weil mich die Theorie vollkommen überzeugt hat. Sondern deswegen, weil es mir schon oft den Hintern gerettet hat.

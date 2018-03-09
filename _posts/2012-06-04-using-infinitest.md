@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Using Infinitest for real
+summary: Using Infinitest for real
+tags: [tdd,infinitest]
 ---
 
 #### Making your Test driven development faster in real projects
