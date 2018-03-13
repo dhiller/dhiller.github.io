@@ -4,4 +4,5 @@ icon: fa-newspaper-o
 title: Read my blog
 label: Blog
 icon_url: /post.html
+scope: local
 ---

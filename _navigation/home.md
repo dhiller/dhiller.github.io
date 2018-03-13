@@ -4,4 +4,5 @@ icon: fa-home
 title: Home
 label: Home
 icon_url: /index.html
+scope: local
 ---

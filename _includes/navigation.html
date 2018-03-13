@@ -1,9 +1,16 @@
-<div class="icon-bar eight-up">
-    {% assign navigation = (site.navigation | sort: 'icon_index') %}
-    {% for item in navigation %}
-    <a class="item" href="{{ item.icon_url }}" title="{{ item.title }}">
-        <i class="fa {{ item.icon }} fa-2x"></i>
-        <label class="show-for-large-up">{{ item.label }}</label>
-    </a>
-    {% endfor %}
+<div class="contain-to-grid sticky">
+    <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
+        <section class="top-bar-section">
+            <ul class="left">
+                {% assign navigation = (site.navigation | sort: 'icon_index' | where: "scope", "local") %}
+                {% for item in navigation %}
+                <li>
+                    <a class="item" href="{{ item.icon_url }}" title="{{ item.title }}">
+                        <i class="fa {{ item.icon }} fa-1x"></i> {{ item.label }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+    </nav>
 </div>

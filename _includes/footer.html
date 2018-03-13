@@ -1,7 +1,31 @@
 <div class="row">
     <div class="columns">
         <hr/>
-        <small>Last update on {{ site.time | date: "%Y-%m-%d" }}. Built by <a href="mailto:me@dhiller.de">dhiller</a> using <a href="https://atom.io/">Atom</a> (editor), <a href="https://jekyllrb.com/">Jekyll</a> (site builder), <a href="https://github.com/mgyongyosi/OneDarkJekyll/">OneDark vivid</a> (syntax highlighting theme), <a href="https://blog.webjeda.com/jekyll-related-posts/#whats-wrong-with-jekyll-related_posts-">Webjeda</a> (related posts), <a href="https://disqus.com/">Disqus</a> (discussions), <a title="Github pages" href="https://pages.github.com/"><i class="fa fa-github-alt"></i> pages</a> (hosting), <a href="https://www.cloudflare.com/">Cloudflare</a> (DNS).</small>
+    </div>
+    <div class="columns large-10 medium-10">
+        <small>
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+            This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+            Last update on {{ site.time | date: "%Y-%m-%d" }}.
+            Built by <a href="mailto:me@dhiller.de">dhiller</a>
+            using
+            <a href="https://atom.io/">Atom</a> (editor),
+            <a href="https://jekyllrb.com/">Jekyll</a> (site builder),
+            <a href="https://github.com/mgyongyosi/OneDarkJekyll/">OneDark vivid</a> (syntax highlighting theme),
+            <a href="https://blog.webjeda.com/jekyll-related-posts/#whats-wrong-with-jekyll-related_posts-">Webjeda</a> (related posts),
+            <a href="https://disqus.com/">Disqus</a> (discussions),
+            <a title="Github pages" href="https://pages.github.com/">Github Pages</a> (hosting),
+            <a href="https://www.cloudflare.com/">Cloudflare</a> (DNS).
+        </small>
+    </div>
+    <div class="columns large-2 medium-2 text-right">
+        {% assign links = (site.navigation | sort: 'icon_index' | where: "scope", "external") %}
+        {% for item in links %}
+        <a class="item" href="{{ item.icon_url }}" title="{{ item.title }}">
+            <i class="fa {{ item.icon }}"></i>
+        </a>
+        {% endfor %}
     </div>
 </div>
 <nav class="bottom"></nav>
