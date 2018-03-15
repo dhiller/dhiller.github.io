@@ -1,5 +1,5 @@
 ---
-icon_index: 7
+icon_index: 8
 icon: fa-xing
 title: Contact me on Xing
 label: Xing
