@@ -36,4 +36,4 @@ and you will get a onelined history output complete with ascii visual graph and 
     * 4b87667f117412034e977f61de8839b251b5ff81 Added conversion script
     * 291eed8a5f44520e8ca706bc6fc7286978fc821c Initial commit
 
-Source: https://git-scm.com/book/tr/v2/Git-Basics-Git-Aliases
+Source: [The GIT book - Aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)

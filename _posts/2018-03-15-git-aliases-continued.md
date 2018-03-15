@@ -112,4 +112,4 @@ Example output:
 
 Hopefully you'll find them useful also, let me know what you think.
 
-Source: https://git-scm.com/book/tr/v2/Git-Basics-Git-Aliases
+Source: [The GIT book - Aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)
