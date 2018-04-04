@@ -1,0 +1,9 @@
+<h4>Latest blog post <a title="All blog posts" href="{{site.baseurl}}/post.html"><i class="fa fa-list"></i></a></h4>
+{% for post in site.posts limit:1 %}
+<div class="row">
+    <div class="columns">
+        <h5><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h5>
+        {{ post.excerpt }} <a href="{{site.baseurl}}{{ post.url }}">...more...</a>
+    </div>
+</div>
+{% endfor %}
