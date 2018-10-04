@@ -5,8 +5,7 @@ summary: Use gpg-agent for svn password caching
 tags: [svn,gpg-agent]
 ---
 
-How to configure gpg-agent for in memory svn password caching
-===
+Here's how to configure gpg-agent for in memory svn password caching.
 
 Install gpg agent:
 
