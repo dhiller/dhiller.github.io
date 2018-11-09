@@ -10,10 +10,16 @@ Here's how to configure gpg-agent for in memory svn password caching.
 Install gpg agent:
 
 ```bash
-sudo apt-get install gnupg-agent
+$ sudo apt-get install gnupg-agent
 ```
 
-Make sure pinentry is present:
+Make sure pinentry is present. Usually pinentry-curses is present, to avoid the curses version, install `pinentry-tty` and configure it to be used for gpg in `~/.gnupg/gpg-agent.conf`:
+
+```bash
+$ sudo apt-get install pinentry-tty
+$ echo "pinentry-program /usr/bin/pinentry-tty" >> ~/.gnupg/gpg-agent.conf
+$ gpg-connect-agent reloadagent /bye
+```
 
 ~/.bash_profile
 ```
@@ -38,3 +44,6 @@ store-passwords = yes
 store-plaintext-passwords = no
 ```
 
+Sources:
+* [SVN Encrypted Password Storage](https://wiki.apache.org/subversion/EncryptedPasswordStorage)
+* [pinentry-tty](https://superuser.com/a/521027)
