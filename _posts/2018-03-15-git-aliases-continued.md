@@ -12,7 +12,7 @@ Note: shown example output is for the [spring-integration-samples](https://githu
 __Git status abbreviated__
 
 ```bash
-git config --global alias.s=status
+git config --global alias.s status
 ```
 
 Example output:
@@ -28,7 +28,7 @@ __Git log enhanced with bells and whistles__
 Shows list of commits, using abbreviated commit ids, full comment, and branch graph decorated with tag and branch names
 
 ```bash
-git config --global alias.ll=log --abbrev-commit --graph --decorate
+git config --global alias.ll "log --abbrev-commit --graph --decorate"
 ```
 
 Example output:
@@ -72,7 +72,7 @@ __Git log enhanced with bells and whistles (short form)__
 Shows list of commits in one line format, using abbreviated commit ids, first line of comment, and branch graph decorated with tag and branch names
 
 ```bash
-git config --global alias.l=log --format=oneline --abbrev-commit --graph --decorate
+git config --global alias.l "log --format=oneline --abbrev-commit --graph --decorate"
 ```
 
 Example output:
@@ -94,7 +94,7 @@ Example output:
 __Show changes staged for commit__
 
 ```bash
-git config --global alias.staged=diff --cached
+git config --global alias.staged "diff --cached"
 ```
 
 Example output:
