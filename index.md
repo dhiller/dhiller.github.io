@@ -6,7 +6,7 @@ tags: [homepage,dhiller,software,engineer,java,spring,spring-boot,tdd,github,aws
 
 Hey there, I'm Daniel Hiller.
 
-I'm a software engineer focused on backend services with more than 15 years of work experience. My main workhorses have been Java, Spring Boot, Jenkins, Bash and AWS recently.
+I'm a software engineer focused on backend services with more than 15 years of work experience. I'm working on [KubeVirt](https://kubevirt.io/), where I learn Go and Kubernetes. Previously my main workhorses have been Java, Spring Boot, Jenkins, Bash and AWS.
 
 I strive to create software that is useful for people so they can get their job done in less time and with less effort. This hopefully leads to people having time to think about how they can work more efficiently, thus getting better in doing their job.
 
@@ -18,5 +18,3 @@ I strongly believe in:
 * continuous integration and deployments
 * infrastructure as code
 * workflow automation
-
-I believe that it's much better to have 50% automated than 100% manual process.
