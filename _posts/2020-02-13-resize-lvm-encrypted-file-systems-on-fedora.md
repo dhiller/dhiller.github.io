@@ -47,13 +47,13 @@ How to resize partitions:
 
 See also:
 ---
-* https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-installation-image/
-* https://pingtool.org/online-resize-lvm-partitions-shrink-home-extend-root/
-* https://unix.stackexchange.com/questions/41091/how-can-i-shrink-a-luks-partition-what-does-cryptsetup-resize-do
-* https://www.cyberciti.biz/hardware/howto-linux-hard-disk-encryption-with-luks-cryptsetup-command/
-* https://help.gnome.org/users/gnome-help/stable/disk-resize.html.en
-* https://unix.stackexchange.com/questions/213245/increase-root-partition-by-reducing-home
-* https://unix.stackexchange.com/questions/505241/resize-luks-volumes
-* (answer not really helpful though) https://unix.stackexchange.com/questions/132807/how-can-i-resize-my-encrypted-root-and-home-partitions-to-give-root-more-space?noredirect=1
-* https://link.medium.com/LYpW1ozQGW
+* [Create Fedora live installation medium](https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-installation-image/)
+* [Resize LVM partitions](https://pingtool.org/online-resize-lvm-partitions-shrink-home-extend-root/)
+* [LUKS partitions and Cryptsetup](https://unix.stackexchange.com/questions/41091/how-can-i-shrink-a-luks-partition-what-does-cryptsetup-resize-do)
+* [Linux Harddisk encryption with LUKS](https://www.cyberciti.biz/hardware/howto-linux-hard-disk-encryption-with-luks-cryptsetup-command/)
+* [Gnome Disk Resize](https://help.gnome.org/users/gnome-help/stable/disk-resize.html.en)
+* [Stackexchange: Increase root partition by reducing home](https://unix.stackexchange.com/questions/213245/increase-root-partition-by-reducing-home)
+* [Stackexchange: Resize luks volumes](https://unix.stackexchange.com/questions/505241/resize-luks-volumes)
+* (answer not really helpful though) [Stackexchange: how can I resize encrypted root...](https://unix.stackexchange.com/questions/132807/how-can-i-resize-my-encrypted-root-and-home-partitions-to-give-root-more-space?noredirect=1)
+* [Medium: Resize an Encrypted Partition without Breaking your Linux System](https://link.medium.com/LYpW1ozQGW)
 
