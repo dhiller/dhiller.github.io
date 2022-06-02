@@ -5,6 +5,11 @@ summary: This article describes how to resize root and home partition to reliabl
 tags: [linux,fedora,filesystem,lvm,encryption]
 ---
 
+**POSSIBLY OUTDATED**
+---
+
+**There seems to be an easier way now as `lvresize` has a parameter `--resizefs` that can do everything in one go now. See this [gist](https://gist.github.com/181192/cf7eb42a25538ccdb8d0bb7dd57cf236)**
+
 How to reduce Fedora home partition and increase root in an encrypted luks container
 ===
 
