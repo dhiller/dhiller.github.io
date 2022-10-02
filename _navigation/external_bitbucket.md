@@ -1,5 +1,5 @@
 ---
-icon_index: 5
+icon_index: 6
 icon: fa-bitbucket
 title: View my public Bitbucket repositories
 label: Bitbucket

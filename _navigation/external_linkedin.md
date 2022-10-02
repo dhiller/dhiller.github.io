@@ -1,5 +1,5 @@
 ---
-icon_index: 7
+icon_index: 1
 icon: fa-linkedin
 title: Contact me on LinkedIn
 label: LinkedIn

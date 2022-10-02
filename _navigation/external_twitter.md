@@ -1,5 +1,5 @@
 ---
-icon_index: 10
+icon_index: 3
 icon: fa-twitter
 title: Tweet me at dhill3r
 label: dhill3r

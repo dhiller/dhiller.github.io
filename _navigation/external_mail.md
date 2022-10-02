@@ -1,5 +1,5 @@
 ---
-icon_index: 9
+icon_index: 4
 icon: fa-envelope
 title: Mail dhiller
 label: E-Mail

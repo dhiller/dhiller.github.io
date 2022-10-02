@@ -6,7 +6,7 @@ view: https://github.com/dhiller/presentations/blob/master/Pull-Requests-mit-Sta
 download: https://github.com/dhiller/presentations/raw/master/Pull%20Requests%20mit%20Stash/Pull%20Requests%20mit%20Stash.pdf
 ---
 
-Working with pull requests on Stash (predecessor of Bitbucket Server). Language of material is german.
+Working with pull requests on Stash (later renamed to Bitbucket Server). Language of material is german.
 
 Topics:
 * What is a PR?

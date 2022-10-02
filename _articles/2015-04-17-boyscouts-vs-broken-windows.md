@@ -2,7 +2,6 @@
 anchor: tdd-by-example
 title: Boyscouts vs. broken windows
 location: Wolters Kluwer Deutschland
-featured: 1
 view:
 download: https://bitbucket.org/dhiller/clean_code/
 ---

@@ -1,5 +1,5 @@
 ---
-icon_index: 6
+icon_index: 11
 icon: fa-stack-overflow
 title: Profile at stackoverflow.com
 label: Stackoverflow

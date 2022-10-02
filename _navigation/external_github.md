@@ -1,5 +1,5 @@
 ---
-icon_index: 4
+icon_index: 5
 icon: fa-github
 title: View my Github repositories
 label: Github

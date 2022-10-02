@@ -1,34 +1,35 @@
+/* https://colorcodes.io/gray/gainsboro-gray-color-codes/ */
 body {
-    background-color: oldlace;
+    background-color: #DADADA;
 }
 .accordion .accordion-navigation > .content.active {
-    background-color: #ece4d5;
+    background-color: #E6E6E6;
 }
 
 .accordion .accordion-navigation.active > a {
-    background-color: #e2dacb;
+    background-color: #BFBFBF;
 }
 
 .accordion .accordion-navigation.active > a:hover {
-    background-color: #e6decf;
+    background-color: #999999;
 }
 
 .accordion .accordion-navigation > a {
-    background-color: #e5ddce;
+    background-color: #BFBFBF;
 }
 
 .accordion .accordion-navigation > a:hover {
-    background-color: #ece4d5;
+    background-color: #999999;
 }
 
 .tabs .tab-title.active a {
-    background-color: #cbc3b4;
+    background-color: #E6E6E6;
 }
 
 .tabs .tab-title > a {
-    background-color: #d2cabb;
+    background-color: #BFBFBF;
 }
 
 .tabs .tab-title > a:hover {
-    background-color: #ddd5c6;
+    background-color: #BFBFBF;
 }
