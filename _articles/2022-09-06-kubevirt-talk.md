@@ -2,7 +2,6 @@
 anchor: containerdays_2022
 title: KubeVirt - making running virtual machines in a kubernetes cluster a mainstream activity
 location: containerdays 2022, Hamburg
-featured: 1
 view: https://www.youtube.com/watch?v=UDArL687A0I
 download: https://github.com/dhiller/containerdays.io-2022
 ---
