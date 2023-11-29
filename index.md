@@ -12,9 +12,9 @@ Previously I've worked with Java, Jenkins, AWS, RDBMS and other things, see my [
 
 I strive to create software that is useful for people so they can do stuff that matters.
 
-I focus heavily on automation to avoid tedious repeatable tasks. I strongly believe that it's the purpose of my profession to automate all the things so everyone can benefit from it. This very much manifests in how I work.
+I focus heavily on automation to avoid tedious repeatable tasks. I firmly believe that it's the purpose of my profession to automate all the things so everyone can benefit from it. This very much manifests in how I work.
 
-I strongly believe in:
+Therefore I use:
 * automated testing
 * software metrics
 * continuous integration and deployments
