@@ -2,7 +2,6 @@
 anchor: kubevirt_summit_2023
 title: Squash the flakes! - How does the flake process work? What tools do we have? How do we minimize the impact?
 location: KubeVirt Summit 2023, virtual event
-featured: 1
 view: https://youtu.be/eA81Q7evtMA
 download: https://github.com/dhiller/presentations/tree/master/KubeVirt-Summit-2023
 ---
