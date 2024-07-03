@@ -2,6 +2,8 @@
 anchor: techweek_ro_2024
 title: Squash the flakes! - how to minimize the impact of flaky tests
 location: techweek.ro 2024, Bucharest, Romania
+view: https://www.youtube.com/watch?v=V1Z6ExOo6dE
+download: https://raw.githubusercontent.com/dhiller/presentations/master/2024-bucharest-tech-week/slides.pdf
 ---
 
 
