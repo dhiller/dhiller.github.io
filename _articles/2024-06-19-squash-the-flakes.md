@@ -2,6 +2,8 @@
 anchor: stackconf_eu_2024
 title: Squash the flakes! - how to minimize the impact of flaky tests
 location: stackconf.eu, Berlin, Germany
+download: https://stackconf.eu/wp-content/uploads/sites/9/2024/07/stackconf-2024-Squash-the-Flakes-%E2%80%93-How-to-Minimize-the-Impact-of-Flaky-Tests-1.pdf
+view: https://www.youtube.com/watch?v=NcjS8HBZL_M
 ---
 
 
