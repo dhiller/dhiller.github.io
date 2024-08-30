@@ -10,7 +10,7 @@ I'm currently part of the [KubeVirt community](https://kubevirt.io/), where I ma
 
 Previously I've worked with Java, Jenkins, AWS, RDBMS and other things, see my [history](/history.html) for more.
 
-I strive to create software that is useful for people so they can do stuff that matters.
+I transform ☕ into useful stuff for others.
 
 I focus heavily on automation to avoid tedious repeatable tasks. I firmly believe that it's the purpose of my profession to automate all the things so everyone can benefit from it. This very much manifests in how I work.
 
