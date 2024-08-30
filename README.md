@@ -1,6 +1,6 @@
-# dhiller.de
+# dhiller.dev
 
-This is the source to my [website](https://www.dhiller.de). It's based on [Jekyll](https://jekyllrb.com/) and hosted with [Github Pages](https://pages.github.com/).
+This is the source to my [website](https://www.dhiller.dev). It's based on [Jekyll](https://jekyllrb.com/) and hosted with [Github Pages](https://pages.github.com/).
 
 ## Local development
 
