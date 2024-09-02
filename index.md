@@ -6,17 +6,10 @@ tags: [homepage,dhiller,software,engineer,java,spring,spring-boot,tdd,github,aws
 
 Hey there, I'm Daniel Hiller.
 
+I'm a software engineer greybeard with a [history](/history.html) of 20+ years transforming ☕ into useful stuff for others.
+
 I'm currently part of the [KubeVirt community](https://kubevirt.io/), where I maintain, improve and automate CI using [Prow](https://docs.prow.k8s.io/docs/overview/) on [Kubernetes](https://www.kubernetes.io/) and [Golang](https://go.dev/) for various things.
 
-Previously I've worked with Java, Jenkins, AWS, RDBMS and other things, see my [history](/history.html) for more.
+Previously I've worked with Java, Jenkins, AWS, RDBMS and other things.
 
-I transform ☕ into useful stuff for others.
-
-I focus heavily on automation to avoid tedious repeatable tasks. I firmly believe that it's the purpose of my profession to automate all the things so everyone can benefit from it. This very much manifests in how I work.
-
-Therefore I use:
-* automated testing
-* software metrics
-* continuous integration and deployments
-* infrastructure as code
-* workflow automation
+Sometimes I also talk about the things I do or did - you can find the talks I gave [here](/presentation.html).
