@@ -1,8 +1,14 @@
 on:
-  schedule:
-  - cron: "5 4 * * *"
+  workflow_run:
+    workflows: [pages-build-deployment]
+    types:
+    - completed
 jobs:
   check_links:
-    name: Check links with linkcheck
-    uses: filiph/linkcheck@3.0.0
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Check links with linkcheck
+      uses: filiph/linkcheck@v2.0.15+1
+      with:
+        arguments: https://dhiller.dev/
             
