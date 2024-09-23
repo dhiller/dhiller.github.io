@@ -1,0 +1,8 @@
+on:
+  schedule:
+  - cron: "5 4 * * *"
+jobs:
+  check_links:
+    name: Check links with linkcheck
+    uses: filiph/linkcheck@3.0.0
+            
