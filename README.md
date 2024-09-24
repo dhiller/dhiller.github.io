@@ -1,4 +1,4 @@
-# dhiller.dev
+# [dhiller.dev](https://www.dhiller.dev/)
 
 [![.github/workflows/main.yml](https://github.com/dhiller/dhiller.github.io/actions/workflows/main.yml/badge.svg?event=workflow_run)](https://github.com/dhiller/dhiller.github.io/actions/workflows/main.yml)
 
