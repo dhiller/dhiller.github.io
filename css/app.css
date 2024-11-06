@@ -33,3 +33,11 @@ body {
 .tabs .tab-title > a:hover {
     background-color: #BFBFBF;
 }
+
+.oval-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(/img/dhiller_containerdays_2022.jpg);
+    background-size: cover; /* Optional */
+}
