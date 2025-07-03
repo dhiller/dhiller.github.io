@@ -2,7 +2,6 @@
 anchor: devopspro_2024
 title: KubeVirt - making running virtual machines in a kubernetes cluster a mainstream activity
 location: DevOpsPro.lt, Vilnius, Lithuania
-featured: 1
 view: 
 download: https://github.com/dhiller/presentations/tree/master/2024-devopspro.lt
 ---

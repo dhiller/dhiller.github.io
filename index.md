@@ -10,4 +10,4 @@ I'm currently part of the [KubeVirt community](https://kubevirt.io/), where I ma
 
 Previously I've worked with Java, Jenkins, AWS, RDBMS and other things.
 
-Sometimes I also talk about the things I do or did - you can find the talks I gave [here](/presentation.html).
+Sometimes I also talk about things publicly - you can find the talks I gave [here](/presentation.html).
