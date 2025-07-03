@@ -20,3 +20,13 @@ $ bundle install
 ```sh
 bundle exec jekyll serve
 ```
+
+### Updating favicon.ico
+
+Install `icoutils` package on linux
+
+Update icon
+
+```bash
+icotool -c ./img/dhiller-devconf-2025-comic-avatar.png -o ./favicon.ico
+```
